@@ -11,6 +11,12 @@ __pycache__/
 *$py.class
 *.so
 
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
 # NS3 build directories
 ns3/build/
 ns3/.lock-*
