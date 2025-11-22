@@ -1,0 +1,54 @@
+# Build outputs
+*.o
+*.out
+*.exe
+sr
+simple-router/src/sr
+
+# Compiled Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# NS3 build directories
+ns3/build/
+ns3/.lock-*
+ns3/.waf-*
+
+# Trace and pcap files
+*.pcap
+*.tr
+*.xml
+*.dat
+
+# Log files
+*.log
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.bak
+*.backup
+
+# Temporary files
+tmp/
+temp/
+
+# Mininet files
+*.pyc
+
+# NetAnim
+*.xml
+
+# Core dumps
+core
+
+# Test outputs
+test-results/
